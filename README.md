@@ -170,7 +170,7 @@ FreeRTOS支持：
 1. 创建三个任务：`Task1`、`Task2`、`Task3`。
 2. `Task1`、`Task2`、`Task3`的优先级分别是：1、2、3，**在FreeRTOS中，数值越大，优先级越高。**
 
-![img001](.\img\img001.png)
+![img001](./img/img001.png)
 
 **运行过程：**
 
@@ -195,7 +195,7 @@ FreeRTOS支持：
 1. 创建三个任务：`Task1`、`Task2`、`Task3`。
 2. `Task1`、`Task2`、`Task3`的优先级都为：1，**即，同等优先级。**
 
-![img002](.\img\img002.png)
+![img002](./img/img002.png)
 
 **运行过程：**
 
@@ -223,7 +223,7 @@ FreeRTOS中共存在4种状态：
 
 四种任务状态的切换关系：
 
-![img003](.\img\img003.png)
+![img003](./img/img003.png)
 
 在以上几种状态中，除了运行态，**就绪态、阻塞态、挂起态都有对应的任务状态列表：**
 
