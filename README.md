@@ -281,5 +281,5 @@ FreeRTOS中共存在4种状态：
 
 1. 基于`Keil + RVDS + MemMang`的移植：[ch01/demo01: Keil + RVDS + MemMang](./src/ch01/demo01)
 2. ...
-3. 
+3. ...
 
