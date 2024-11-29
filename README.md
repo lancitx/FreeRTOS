@@ -244,3 +244,30 @@ FreeRTOS中共存在4种状态：
 ### 2.3 获取源码
 
 官网下载网站：[Download FreeRTOS](https://www.freertos.org/zh-cn-cmn-s/Documentation/02-Kernel/01-About-the-FreeRTOS-kernel/03-Download-freeRTOS/01-DownloadFreeRTOS)
+
+主要源码内容：
+
+- **`FreeRTOS`**：FreeRTOS内核
+- **`FreeRTOS-Plus`**：FreeRTOS组件，如：MQTT、TCP、IO等
+- **`tools`**：工具
+
+
+
+针对`FreeRTOS`中的`Source`中的内容：
+
+- **`include`**：包含了FreeRTOS的头文件
+- **`portable`**：包含了FreeRTOS的移植文件，包含不同编译平台的移植文件
+- **`croutine.c`**：协程相关文件
+- **`event_groups.c`**：事件相关文件
+- **`list.c`**：列表相关文件
+- **`queue.c`**：队列相关文件
+- **`stream_buffer.c`**：流式缓冲区相关文件
+- **`tasks.c`**：任务相关文件
+- **`timers.c`**：软件定时器相关文件
+
+其中核心文件为：**`include`**、**`portable`**、**`list.c`**、**`queue.c`**、**`tasks.c`**。
+
+----
+
+## 3. 移植
+
