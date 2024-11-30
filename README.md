@@ -277,6 +277,8 @@ FreeRTOS中共存在4种状态：
 
 ## 快速链接：
 
+**硬件资源环境**：[STM32F407VET6 最小系统板](./src/README.md)
+
 **移植：**
 
 1. 基于`Keil + RVDS + MemMang`的移植：[ch01/demo01: Keil + RVDS + MemMang](./src/ch01/demo01)
